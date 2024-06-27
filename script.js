@@ -17,7 +17,7 @@ function fonkonos() {
     if (score > buyscoreplus) {
         score -= buyscoreplus;
         scoreplus++;
-        buyscoreplus += scoreplus;
+        buyscoreplus += Math.ceil(scoreplus ** 1.7);
     }
     document.getElementById("buyscor").textContent = "scor+ moneh for only " + buyscoreplus + "$";
 }
@@ -28,7 +28,7 @@ function barmov(movval) {
     if (bar > 100) {
         document.getElementById("bar2").style.width = "1px";
         bar = 1;
-        score += scoreplus ** 2;
+        score += Math.floor(scoreplus ** 1.3);
     }
 }
 
