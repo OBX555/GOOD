@@ -19,6 +19,30 @@ button {
     height: 10px;
     background-color: greenyellow;
 }
+
+#bar3 {
+    width: 100px;
+    height: 11px;
+    background-color: black;
+}
+
+#bar4 {
+    width: 1px;
+    height: 10px;
+    background-color: lime;
+}
+
+#bar5 {
+    width: 100px;
+    height: 11px;
+    background-color: black;
+}
+
+#bar6 {
+    width: 1px;
+    height: 10px;
+    background-color: darkolivegreen;
+}
 #deth{
     background-color: red;
 }
